@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* height: 30px; */
+
+  padding: 8px 20px;
+  font-size: 13px;
+  color: wheat;
+  visibility: hidden;
+}
+.alert-success {
+  visibility: visible;
+  background-color: green;
+  color: white;
+}
+.alert-danger {
+  visibility: visible;
+  background-color: crimson;
+}
+
+.container {
+  height: 250px;
+  background-color: orange;
+}
+
+.todo_list {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 2px 10px 10px rgba(245, 222, 179, 0.3);
+  margin: auto;
+  margin-top: -100px;
+  border-radius: 5px;
+  padding: 30px 25px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+.input_element {
+  margin: 20px 0px;
+}
+.submit_form {
+  padding: 13px 15px;
+  border-radius: 5px;
+  border: none;
+  align-self: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: green;
+  color: white;
+}
+.edit_form{
+  padding: 13px 15px;
+  border-radius: 5px;
+  border: none;
+  align-self: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: crimson;
+  color: wheat;
+
+}
+.input_element input {
+  padding: 13px 15px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.todo_bottom {
+    background-color: whitesmoke;
+    padding: 8px 5px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:10px 0px;
+
+ 
+
+
+}
+.btn {
+  padding: 4px 8px;
+  border-radius: 5px;
+  border:none;
+  color: white;
+
+}
+.delete-btn{
+    background-color:crimson;
+}
+.edit-btn{
+    background-color:orange;
+}
+
